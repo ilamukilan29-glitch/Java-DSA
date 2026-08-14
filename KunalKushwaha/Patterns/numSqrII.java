@@ -28,7 +28,7 @@ public class numSqrII {
                 int val=ogn-Math.min(Math.min(i,j),Math.min(n-i,n-j));
                 System.out.print(val+" ");
             }
-            System.out.println();
+            System.out.println();u
         }
     }
 }
