@@ -1,19 +1,28 @@
 
+
 public class BinarySearchUsingRecursion{
     /*
          --Same BinarySearch Using Recursion--  
     */
    static int Search(int[] arr,int t,int str,int end){
-        if(str>end){
+    //--Element not Found--    
+    if(str>end){
             return -1;
         }
+        
+        // Finding The Mid
         int mid=str+(end-str)/2;
+
+        //  --Returning the Answer--
         if(arr[mid]==t){
             return mid;
         }
+        
+        //   --Searching in 2nd Half--
         if(arr[mid]<t){
             return Search(arr,t,mid+1,end);
         }
+        //--Searching in 1st Half--
         return Search(arr,t,str,mid-1);
 
    }
