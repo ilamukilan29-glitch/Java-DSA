@@ -1,34 +1,55 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "FindrightMostSetBit",
-            "request": "launch",
-            "mainClass": "FindrightMostSetBit",
-            "projectName": "Java_72da403b"
-        },
-        {
-            "type": "java",
-            "name": "uniqueApperanceOfArray",
-            "request": "launch",
-            "mainClass": "uniqueApperanceOfArray",
-            "projectName": "Java_72da403b"
-        },
-        {
-            "type": "java",
-            "name": "oddOrEvenUsingBitwise",
-            "request": "launch",
-            "mainClass": "oddOrEvenUsingBitwise",
-            "projectName": "Java_72da403b"
-        },
-        {
-            "type": "jdk",
-            "request": "launch",
-            "name": "Launch Java App"
-        }
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "NewtonSqrtMethod",
+      "request": "launch",
+      "mainClass": "NewtonSqrtMethod",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "SqrtOfNo",
+      "request": "launch",
+      "mainClass": "SqrtOfNo",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Prime",
+      "request": "launch",
+      "mainClass": "Prime",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "FindrightMostSetBit",
+      "request": "launch",
+      "mainClass": "FindrightMostSetBit",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "uniqueApperanceOfArray",
+      "request": "launch",
+      "mainClass": "uniqueApperanceOfArray",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "oddOrEvenUsingBitwise",
+      "request": "launch",
+      "mainClass": "oddOrEvenUsingBitwise",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "jdk",
+      "request": "launch",
+      "name": "Launch Java App"
+    }
+  ]
 }
