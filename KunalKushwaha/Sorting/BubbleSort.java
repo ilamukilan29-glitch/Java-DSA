@@ -11,7 +11,7 @@ public class BubbleSort {
                     arr[j-1]=tem;
                     count=false;
                 }
-            }
+            } 
             if(count){
                 break;
             }
