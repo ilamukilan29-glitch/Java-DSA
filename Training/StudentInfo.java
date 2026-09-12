@@ -37,7 +37,7 @@ public class StudentInfo {
                     stu.tot = stu.sb1+stu.sb2+stu.sb3;
                     stu.avg = stu.tot/3;
                     map.put(++reg,stu);
-                    System.out.println("INFORMATION ADDED SUCCESSFULLY 🎉");
+                    System.out.println("INFORMATION ADDED SUCCESSFULLY");
                     break;
                 // -- If user Enters 2 Edit the Particular Students Information based on the entered Register Number --
                 case 2:
@@ -73,7 +73,7 @@ public class StudentInfo {
                     stuu.tot = stuu.sb1+stuu.sb2+stuu.sb3;
                     stuu.avg = stuu.tot/3;
                     map.put(registerNo,stuu);
-                     System.out.println("INFORMATION EDITED SUCCESSFULLY 🎉");
+                     System.out.println("INFORMATION EDITED SUCCESSFULLY ");
                     break;
                     // -- If the user Enters 3 Search and show the details of a particular student as per the entered Register Number --
                 case 3:
@@ -97,11 +97,11 @@ public class StudentInfo {
                     System.out.println("Enter the Register Number of the student for deleting: ");
                     int reg1 = sc.nextInt();
                     map.remove(reg1);
-                     System.out.println("INFORMATION DELETED ⚠️");
+                     System.out.println("INFORMATION DELETED ");
                     break;
                     // -- If the user Enter 5 Terminates the Program --
                 case 5:
-                    System.out.println("Bye!! Program Terminated ☠️");
+                    System.out.println("Bye!! Program Terminated");
                     return;
             }
 
